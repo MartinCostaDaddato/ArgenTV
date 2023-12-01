@@ -1,9 +1,6 @@
 import { Canales } from "@/app/canales.js";
 import CanalesComponent from "@/Components/Canales";
 
-import Instagram from "/public/images/redes/instagram.png";
-import X from "/public/images/redes/x.png";
-
 import Image from "next/image";
 import Link from "next/link";
 
@@ -53,7 +50,7 @@ function Page({ params }) {
             </Link>
             <Link href={canal.xUser} target="_blank">
               <Image
-                src="/public/images/redes/X.png"
+                src="/images/redes/X.png"
                 alt={`Twitter de ${canal.nombreCanal}`}
                 height={30}
                 width={30}
