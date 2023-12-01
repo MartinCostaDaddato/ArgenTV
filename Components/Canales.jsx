@@ -71,12 +71,16 @@ function CanalesCard() {
               className=" object-cover w-full rounded-t-xl h-44 bg-white"
               src={canal.bannerCanal}
               alt={canal.nombreCanal}
+              width={400}
+              height={400}
             />
             <div className="flex text-center p-4 gap-4 items-center ">
               <Image
                 className="rounded-full w-10 h-10 object-cover"
                 src={canal.logoCanal}
-                alt={canal.logoCanal}
+                alt={canal.nombreCanal}
+                width={40}
+                height={40}
               />
               <p className="text-white">{canal.nombreCanal}</p>
             </div>
