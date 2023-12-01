@@ -53,7 +53,7 @@ function Page({ params }) {
             </Link>
             <Link href={canal.xUser} target="_blank">
               <Image
-                src="/public/images/redes/x.png"
+                src="/public/images/redes/X.png"
                 alt={`Twitter de ${canal.nombreCanal}`}
                 height={30}
                 width={30}
