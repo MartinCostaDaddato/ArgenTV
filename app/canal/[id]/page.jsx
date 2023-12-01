@@ -45,7 +45,7 @@ function Page({ params }) {
             <Link href={canal.instagramUser} target="_blank">
               <Image
                 src={Instagram}
-                alt={`Instagram de ${canal.nombreCanal}`}
+                alt="/public/images/redes/instagram.png"
                 height={30}
                 width={30}
                 className="rounded-xl"
@@ -53,7 +53,7 @@ function Page({ params }) {
             </Link>
             <Link href={canal.xUser} target="_blank">
               <Image
-                src={X}
+                src="/public/images/redes/x.png"
                 alt={`Twitter de ${canal.nombreCanal}`}
                 height={30}
                 width={30}
