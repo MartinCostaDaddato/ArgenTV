@@ -44,8 +44,8 @@ function Page({ params }) {
           <div className="flex mb-10 gap-5 ">
             <Link href={canal.instagramUser} target="_blank">
               <Image
-                src={Instagram}
-                alt="/public/images/redes/instagram.png"
+                src="/public/images/redes/instagram.png"
+                alt={`Instagram de ${canal.nombreCanal}`}
                 height={30}
                 width={30}
                 className="rounded-xl"
