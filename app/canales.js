@@ -33,7 +33,7 @@ export const Canales = [
         id: 3,
         nombreCanal: "La Nacion +",
         urlCanal: "https://www.youtube.com/@lanacion/live",
-        logoCanal: "/images/logos/lanacionlogo.png",
+        logoCanal: "/images/logos/lnlogo.png",
         bannerCanal: "/images/banners/lanacionbanner.png",
         instagramUser: "https://www.instagram.com/lanacionmas",
         xUser: "https://www.twitter.com/lanacionmas",
