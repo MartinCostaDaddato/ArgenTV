@@ -1,6 +1,5 @@
 import CanalesCard from "@/Components/Canales";
 import Hero from "@/Components/Hero";
-import Navbar from "@/Components/Navbar";
 
 export default function Home() {
   return (
