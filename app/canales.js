@@ -359,6 +359,9 @@ export const Canales = [
         instagramUser: "https://www.instagram.com/americatv",
         xUser: "https://www.twitter.com/AmericaTV",
         descripcion: "América Televisión, es un canal de televisión abierta argentino con licencia en la ciudad de La Plata, Argentina, aunque su señal es producida en la ciudad de Buenos Aires. Es también conocido por ser uno de los cinco canales abiertos que emiten desde el Área metropolitana de Buenos Aires.",
+        plataforma: "Youtube",
+        tipo: "Entretenimiento",
+        medio: "Television",
     }
 ];
 
