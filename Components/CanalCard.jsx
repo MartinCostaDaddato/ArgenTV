@@ -1,7 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
+import Loader from "@/Components/Loader";
 
-function CanalCard({canal}) {
+function CanalCard({ canal }) {
   return (
     <div className="flex flex-wrap justify-center items-center  mt-10 rounded-xl mb-10">
       <div className="w-[400px] h-[400px] flex justify-center items-center ">
